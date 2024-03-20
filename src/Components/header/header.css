@@ -68,10 +68,8 @@
 }
 
 .body-header-text {
-    /* padding: .15rem; */
-    /* margin: 0; */
     text-transform: uppercase;
-    /* transition: all .25s ease-in-out; */
+    transition: all .3s ease-in-out;
 }
 
 #splash-back-link {

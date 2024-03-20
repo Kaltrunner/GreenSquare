@@ -35,17 +35,16 @@ function Body() {
         audioRef.current.play();
       }
       setIsPlaying(!isPlaying);
-      // setIsAnimating(!isAnimating);
     }
   };
 
   const restartAudio = () => {
     const audio = audioRef.current;
     if (audio) {
-      audio.currentTime = 0; // Reset audio playback to the beginning
-      setIsAnimating(false); // Reset animation state
+      audio.currentTime = 0;
+      setIsAnimating(false);
       if (isPlaying) {
-        audio.play(); // If the audio was playing, restart playback
+        audio.play();
       }
     }
   };
