@@ -1,0 +1,192 @@
+
+.body-content-div {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* margin: 2rem; */
+    padding: 0;
+    position: fixed;
+}
+
+.square {
+    width: 48vw;
+    height: 48vw;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 1000px;
+    max-height: 1000px;
+    border-radius: 2px;
+    animation: change-square 1800s linear infinite;
+}
+
+@keyframes change-square {
+    0% {
+      background: #4cbb17;
+      opacity: 0%;
+      filter: blur(4px);
+      }
+      0.1% {
+        background: #4cbb17;
+        opacity: 100%;
+        filter: blur(0);
+        }
+    1% {
+      background: #4cbb17;
+      opacity: 100%;
+      filter: blur(0);
+      }
+    4.44% {
+      background: #9dc209;
+      opacity: 100%;
+      }
+    6.11% {
+      background: #2a8000;
+      opacity: 100%;
+      }
+    8.89% {
+      background: #00a877;
+      opacity: 100%;
+      }
+    12.78% {
+      background: #568265;
+      opacity: 100%;
+      }
+    16.11% {
+      background: #67ea46;
+      opacity: 100%;
+      }
+    18.33% {
+      background: #4aff00;
+      opacity: 100%;
+      }
+    22.77% {
+      background: #00ab66;
+      opacity: 100%;
+      }
+    23.88% {
+      background: #9dc209;
+      opacity: 100%;
+      }
+    27.77% {
+      background: #00a693;
+      opacity: 100%;
+      }
+    29.99% {
+      background: #00a877;
+      opacity: 100%;
+      }
+    32.77% {
+      background: #00f0a8;
+      opacity: 100%;
+      }
+    33.88% {
+      background: #4cbb17;
+      opacity: 100%;
+      }
+    37.21% {
+      background: #98fb98;
+      opacity: 100%;
+      }
+    38.88% {
+      background: #2a8000;
+      opacity: 95%;
+      }
+    43.32% {
+      background: #c7ea46;
+      opacity: 100%;
+      }
+    45.54% {
+      background: #85bb65;
+      opacity: 100%;
+      }
+    46.65% {
+      background: #4d8c57;
+      opacity: 100%;
+      }
+    49.98% {
+      background: #9dc209;
+      opacity: 100%;
+      }
+    52.76% {
+      background: #00a693;
+      opacity: 100%;
+      }
+    56.65% {
+      background: #a4ff00;
+      opacity: 100%;
+      }
+    58.32% {
+        background: #4cbb17;
+        opacity: 0%;
+        }
+    59.43% {
+        background: #00a877;
+        opacity: 100%;
+        }
+    63.87% {
+        background: #00b140;
+        opacity: 100%;
+        }
+    66.09% {
+        background: #00755e;
+        opacity: 100%;
+        }
+    69.42% {
+        background: #8a9a5b;
+        opacity: 100%;
+        }
+    73.31% {
+        background: #00a877;
+        opacity: 100%;
+        }
+    76.09% {
+        background: #00f0a8;
+        opacity: 100%;
+        }
+    77.2% {
+        background: #00a817;
+        opacity: 100%;
+        }
+    81.64% {
+        background: #006b3c;
+        opacity: 100%;
+        }
+    83.31% {
+        background: #85bb65;
+        opacity: 100%;
+        }
+    86.64% {
+        background: #4d8c57;
+        opacity: 100%;
+        }
+    88.86% {
+        background: #c4bb17;
+        opacity: 100%;
+        }
+    89.97% {
+        background: #00a86b;
+        opacity: 100%;
+        }
+    92.75% {
+        background: #007848;
+        opacity: 100%;
+        }
+    96.64% {
+        background: #00a693;
+        opacity: 100%;
+        }
+    98% {
+      background: #00f0a8;
+      opacity: 100%;
+    }
+    99% {
+      background: whitesmoke;
+      opacity: 100%;
+    }
+    100% {
+        background-color: whitesmoke;
+        opacity: 0;
+        }
+    }
