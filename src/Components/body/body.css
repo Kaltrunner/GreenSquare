@@ -20,6 +20,12 @@
     animation: change-square 1800s linear infinite;
 }
 
+#mute-btn {
+  background-color: whitesmoke;
+  border: none;
+  
+}
+
 @keyframes change-square {
     0% {
       background: #4cbb17;

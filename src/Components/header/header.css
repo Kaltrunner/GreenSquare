@@ -68,6 +68,25 @@
     cursor: pointer !important;
 }
 
+#mute-btn {
+    background-color: whitesmoke;
+    box-shadow: inset 0 0 0 0 black;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 18px;
+	padding: .45rem;
+	margin: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#mute-btn:hover {
+    color: whitesmoke;
+    box-shadow: inset 200px 0 0 0 black;
+    cursor: pointer !important;
+}
+
 .body-header-text {
     text-transform: uppercase;
     transition: all .3s ease-in-out;

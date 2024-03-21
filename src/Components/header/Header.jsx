@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./header.css";
 
-function Header({ onRestart }) {
+function Header({ onRestart, onToggleMute, isMuted }) {
   const [isPlaying, setIsPlaying] = useState(false);
   //removed the onTogglePlay from props
 
@@ -37,6 +37,13 @@ function Header({ onRestart }) {
           onClick={handleRestart}
         >
           restart
+        </button>
+        <button
+          className="body-header-text"
+          id="mute-btn"
+          onClick={onToggleMute}
+        >
+          {isMuted ? "unmute" /* Muted speaker */ : "mute" /* Speaker */}
         </button>
       </div>
     </div>
