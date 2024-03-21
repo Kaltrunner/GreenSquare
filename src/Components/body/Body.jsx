@@ -59,7 +59,7 @@ function Body() {
         autoPlay
         loop
         ref={audioRef}
-        src="/src/assets/Kaltrunner . B-sides - Darth Raven .wav"
+        src="./src/assets/Kaltrunner . B-sides - Darth Raven .wav"
       />
     </div>
   );
