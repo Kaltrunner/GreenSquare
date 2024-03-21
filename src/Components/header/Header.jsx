@@ -31,13 +31,13 @@ function Header({ onRestart }) {
         >
           {isPlaying ? "stop" : "play"}
         </p> */}
-        <p
+        <button
           className="body-header-text"
           id="restart-btn"
           onClick={handleRestart}
         >
           restart
-        </p>
+        </button>
       </div>
     </div>
   );

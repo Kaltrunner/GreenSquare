@@ -50,6 +50,7 @@
 }
 
 #restart-btn {
+    background-color: whitesmoke;
     box-shadow: inset 0 0 0 0 black;
     color: black;
     border: 1px solid transparent;
