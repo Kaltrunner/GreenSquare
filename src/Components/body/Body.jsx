@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Header from "../header/Header";
+import audioFile from "../../assets/Kaltrunner . B-sides - Darth Raven .wav"
 import "./body.css";
 
 function Body() {
@@ -59,7 +60,7 @@ function Body() {
         autoPlay
         loop
         ref={audioRef}
-        src="./src/assets/Kaltrunner . B-sides - Darth Raven .wav"
+        src={audioFile}
       />
     </div>
   );
