@@ -12,12 +12,13 @@
     cursor: default !important;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 390px) {
     .splash-header-div {
       height: auto;
     }
     .splash-square-div {
       height: 60vh;
+      position: fixed;
     }
     .splash-header {
       font-size: 4rem;
