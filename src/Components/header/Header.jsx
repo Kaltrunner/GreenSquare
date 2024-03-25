@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./header.css";
+import icon from "../../assets/icons8-restart-100.png";
+import back from "../../assets/icons8-left-arrow-100.png";
+import mute from "../../assets/icons8-mute-64.png";
+import volume from "../../assets/icons8-volume-100.png";
 
 function Header({ onRestart, onToggleMute, isMuted }) {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -20,9 +24,10 @@ function Header({ onRestart, onToggleMute, isMuted }) {
     <div className="header-content">
       <div className="text-div">
         <Link id="splash-back-link" to="/">
-          <p className="body-header-text" id="home-btn">
-            home
-          </p>
+          <button className="body-header-text" id="home-btn">
+            {/* home */}
+            <img id="home-png" src={back} alt="" />
+          </button>
         </Link>
         {/* <p
           className="body-header-text"
@@ -36,14 +41,21 @@ function Header({ onRestart, onToggleMute, isMuted }) {
           id="restart-btn"
           onClick={handleRestart}
         >
-          restart
+          {/* restart */}
+          <img id="restart-png" src={icon} alt="" />
         </button>
         <button
           className="body-header-text"
           id="mute-btn"
           onClick={onToggleMute}
         >
-          {isMuted ? "unmute" /* Muted speaker */ : "mute" /* Speaker */}
+          {
+            isMuted ? (
+              <img id="mute-png" src={volume} alt="" /> /* Muted speaker */
+            ) : (
+              <img id="mute-png" src={mute} alt="" />
+            ) /* Speaker */
+          }
         </button>
       </div>
     </div>

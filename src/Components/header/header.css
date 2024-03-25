@@ -3,7 +3,7 @@
     padding: 0;
     margin: 2rem;
     position: fixed;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -15,26 +15,30 @@
 }
 
 #home-btn {
+    background-color: whitesmoke;
     box-shadow: inset 0 0 0 0 black;
     color: black;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 18px;
 	padding: .45rem;
 	margin: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
+    margin-top: 1rem;
     text-align: center;
+    width: 100%;
 }
 
 #home-btn:hover {
     color: whitesmoke;
-    box-shadow: inset 200px 0 0 0 black;
+    /* box-shadow: inset 200px 0 0 0 lightgray; */
+    background-color: lightgray;
     cursor: pointer;
 }
 
-#play-btn {
+/* #play-btn {
     box-shadow: inset 0 0 0 0 black;
     color: black;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 18px;
 	padding: .45rem;
 	margin: 0 .25rem;
@@ -47,24 +51,26 @@
     color: whitesmoke;
     box-shadow: inset 200px 0 0 0 black;
     cursor: pointer;
-}
+} */
 
 #restart-btn {
     background-color: whitesmoke;
     box-shadow: inset 0 0 0 0 black;
     color: black;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 18px;
 	padding: .45rem;
 	margin: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
     margin-top: 1rem;
     text-align: center;
+    width: 100%;
 }
 
 #restart-btn:hover {
     color: whitesmoke;
-    box-shadow: inset 200px 0 0 0 black;
+    /* box-shadow: inset 200px 0 0 0 lightgray; */
+    background-color: lightgray;
     cursor: pointer !important;
 }
 
@@ -72,18 +78,21 @@
     background-color: whitesmoke;
     box-shadow: inset 0 0 0 0 black;
     color: black;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 18px;
 	padding: .45rem;
 	margin: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
     margin-top: 1rem;
     text-align: center;
+    text-decoration: none;
+    width: 100%;
 }
 
 #mute-btn:hover {
     color: whitesmoke;
-    box-shadow: inset 200px 0 0 0 black;
+    /* box-shadow: inset 200px 0 0 0 lightgray; */
+    background-color: lightgray;
     cursor: pointer !important;
 }
 
@@ -92,7 +101,14 @@
     transition: all .3s ease-in-out;
 }
 
-#splash-back-link {
-    text-decoration: none;
-    color: black;
+#restart-png {
+    width: 1.5rem;
+}
+
+#home-png {
+    width: 1.5rem;
+}
+
+#mute-png {
+    width: 1.5rem;
 }

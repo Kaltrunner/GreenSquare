@@ -3,7 +3,6 @@
     margin: 0 2rem;
     padding: 0;
     top: 0;
-    /* position: fixed; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,6 +27,7 @@
 #portfolio-link {
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid black;
     transition: all .25s ease-in-out;
 }
 
@@ -45,12 +45,11 @@
     box-shadow: inset 0 0 0 0 black;
 	padding: .45rem;
 	margin: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: all .3s ease-in-out, box-shadow .3s ease-in-out;
     
 }
 
 #square-link:hover {
-    color: whitesmoke;
-    box-shadow: inset 200px 0 0 0 black;
+    background-color: lightgray;
     cursor: pointer !important;
 }
