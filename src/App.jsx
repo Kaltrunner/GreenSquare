@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 import Splash from "./Components/splash/Splash";
 import Body from "./Components/body/Body";
 import SplashHeader from "./Components/splashheader/SplashHeader";
@@ -7,6 +8,28 @@ import Header from "./Components/header/Header";
 import "./App.css";
 
 function App() {
+  // Function to lock the screen orientation to portrait mode
+  const lockScreenOrientation = () => {
+    if (screen.orientation && screen.orientation.lock) {
+      // Check if the lock method is available
+      screen.orientation
+        .lock("portrait")
+        .then(() => {
+          console.log("Screen orientation locked to portrait");
+        })
+        .catch((error) => {
+          console.error("Failed to lock screen orientation:", error);
+        });
+    } else {
+      console.error("Screen orientation lock not supported");
+    }
+  };
+
+  // Lock screen orientation when the app starts
+  useEffect(() => {
+    lockScreenOrientation();
+  }, []); // Empty dependency array to run the effect only once
+
   return (
     <>
       {/* <AnimatedCursor
@@ -36,6 +59,7 @@ function App() {
           "#restart-btn",
         ]}
       /> */}
+
       <Routes>
         <Route path="/" element={<Splash />}></Route>
         <Route path="/SplashHeader" element={<SplashHeader />}></Route>
