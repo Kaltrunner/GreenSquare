@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import arrow from "../../assets/icons8-rightward-up-arrow-100.png";
 import "./splashheader.css";
 
 function SplashHeader() {
@@ -30,11 +31,13 @@ function SplashHeader() {
           </a>
         </p>
         <p className="splash-p">
-          An audio and visual experience{" "}
+          An audio & visual experience
           <Link id="square-link" to="Body">
-            <span>
-              Enter <span id="enter-link">&#8599;</span>
-            </span>
+            {/* <span>
+               <span id="enter-link">&#8599;</span>
+            </span> */}
+            Enter
+            <img id="enter-png" src={arrow} />
           </Link>
         </p>
       </div>
