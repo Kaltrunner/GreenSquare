@@ -38,7 +38,22 @@
     .header-content {
       align-items: flex-start;
     }
+    .text-div {
+      flex-direction: row;
+    }
     .square {
       width: calc(100vw - 2rem);
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
     }
   }
