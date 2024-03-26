@@ -28,19 +28,16 @@
 
 @keyframes change-square {
     0% {
-      background: #4cbb17;
+      background: whitesmoke;
       opacity: 0%;
-      filter: blur(4px);
       }
-      0.1% {
-        background: #4cbb17;
-        opacity: 100%;
-        filter: blur(0);
-        }
+    0.1% {
+      background: #4cbb17;
+      opacity: 100%;
+      }
     1% {
       background: #4cbb17;
       opacity: 100%;
-      filter: blur(0);
       }
     4.44% {
       background: #9dc209;
