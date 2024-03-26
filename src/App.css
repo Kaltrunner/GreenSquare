@@ -23,6 +23,9 @@
     .splash-header {
       font-size: 4rem;
     }
+    #created-text {
+      font-size: .75rem;
+    }
     .splash-square {
       width: calc(100vw - 2rem);
     }
@@ -38,6 +41,7 @@
     }
     .header-content {
       align-items: flex-start;
+      margin: 0;
     }
     .text-div {
       flex-direction: row;

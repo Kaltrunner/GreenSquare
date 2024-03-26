@@ -7,7 +7,7 @@ function SplashHeader() {
     <div className="splashheader-content">
       <div className="splash-header-div">
         <h1 className="splash-header">green square</h1>
-        <p className="portfolio-links">
+        <p className="portfolio-links" id='created-text'>
           created by:{" "}
           <a
             id="portfolio-link"
