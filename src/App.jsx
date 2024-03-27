@@ -11,16 +11,13 @@ function App() {
     <>
       {/* <AnimatedCursor
         innerSize={0}
-        outerSize={40}
-        color="134, 23, 187"
+        outerSize={20}
+        color="76,187,23"
         outerAlpha={1}
         innerScale={1}
         outerScale={0}
-        trailingSpeed={8}
+        trailingSpeed={10}
         hasBlendMode={true}
-        outerStyle={{
-          mixBlendMode: "exclusion",
-        }}
         clickables={[
           "a",
           'input[type="text"]',

@@ -33,7 +33,7 @@
     color: whitesmoke;
     /* box-shadow: inset 200px 0 0 0 lightgray; */
     background-color: #BFBFBF;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 #home-btn {
@@ -54,7 +54,7 @@
     color: whitesmoke;
     /* box-shadow: inset 200px 0 0 0 lightgray; */
     background-color: #E6E6E6;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 #restart-btn {
