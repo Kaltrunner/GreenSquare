@@ -16,7 +16,7 @@
 }
 
 #menu-btn {
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     box-shadow: inset 0 0 0 0 black;
     color: black;
     border: none;
@@ -32,7 +32,7 @@
 #menu-btn:hover {
     color: whitesmoke;
     /* box-shadow: inset 200px 0 0 0 lightgray; */
-    background-color: lightgray;
+    background-color: #BFBFBF;
     cursor: pointer;
 }
 
@@ -53,7 +53,7 @@
 #home-btn:hover {
     color: whitesmoke;
     /* box-shadow: inset 200px 0 0 0 lightgray; */
-    background-color: lightgray;
+    background-color: #E6E6E6;
     cursor: pointer;
 }
 
@@ -74,7 +74,7 @@
 #restart-btn:hover {
     color: whitesmoke;
     /* box-shadow: inset 200px 0 0 0 lightgray; */
-    background-color: lightgray;
+    background-color: #E6E6E6;
     cursor: pointer !important;
 }
 
@@ -96,7 +96,7 @@
 #mute-btn:hover {
     color: whitesmoke;
     /* box-shadow: inset 200px 0 0 0 lightgray; */
-    background-color: lightgray;
+    background-color: #E6E6E6;
     cursor: pointer !important;
 }
 

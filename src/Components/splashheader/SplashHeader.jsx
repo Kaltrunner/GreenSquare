@@ -7,7 +7,7 @@ function SplashHeader() {
     <div className="splashheader-content">
       <div className="splash-header-div">
         <h1 className="splash-header">green square</h1>
-        <p className="portfolio-links" id='created-text'>
+        <p className="portfolio-links" id="created-text">
           created by:{" "}
           <a
             id="portfolio-link"
@@ -31,12 +31,9 @@ function SplashHeader() {
           </a>
         </p>
         <p className="splash-p">
-          An audio & visual experience
+          an audio & visual experience
           <Link id="square-link" to="Body">
-            {/* <span>
-               <span id="enter-link">&#8599;</span>
-            </span> */}
-            Enter
+            ENTER
             <img id="enter-png" src={arrow} />
           </Link>
         </p>
