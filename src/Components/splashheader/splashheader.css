@@ -10,7 +10,9 @@
 }
 
 .splash-header {
-    font-size: 8vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 9vw;
     text-transform: uppercase;
     padding: 0;
     margin: 0;
@@ -18,6 +20,7 @@
 }
 
 .splash-text-div {
+    font-weight: 400;
     width: 100vw;
     margin: 0;
     display: flex;

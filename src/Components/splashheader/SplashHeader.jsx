@@ -44,7 +44,7 @@ function SplashHeader() {
             duration: 1.25,
             opacity: 1,
             x: 0,
-            stagger: 0.1,
+            stagger: 0.015,
           },
           0
         )
@@ -57,7 +57,7 @@ function SplashHeader() {
             duration: 1.25,
             opacity: 1,
             x: 0,
-            stagger: 0.1,
+            stagger: 0.015,
           },
           0
         );
