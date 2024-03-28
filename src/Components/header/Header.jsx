@@ -49,9 +49,9 @@ function Header({ onRestart, onToggleMute, isMuted }) {
             >
               {
                 isMuted ? (
-                  <img id="mute-png" src={volume} alt="" /> /* Muted speaker */
+                  <img id="mute-png" src={mute} alt="" /> /* Muted speaker */
                 ) : (
-                  <img id="mute-png" src={mute} alt="" />
+                  <img id="mute-png" src={volume} alt="" />
                 ) /* Speaker */
               }
             </button>

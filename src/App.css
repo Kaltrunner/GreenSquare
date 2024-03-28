@@ -12,6 +12,17 @@
     cursor: default !important;
   }
 
+  @media only screen and (max-width: 600px) {
+    .splash-header-div {
+      height: auto;
+      flex-direction: column;
+      align-items: start;
+    }
+    .splash-header {
+      font-size: 4rem;
+    }
+  }
+
   @media only screen and (max-width: 390px) {
     .splash-header-div {
       height: auto;
@@ -26,6 +37,9 @@
     #created-text {
       font-size: .75rem;
     }
+    /* .splashheader-content {
+      margin:0;
+    } */
     .splash-square {
       width: calc(100vw - 2rem);
     }

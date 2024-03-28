@@ -3,9 +3,9 @@
 }
 
 .splash-content-div {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
