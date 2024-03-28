@@ -1,10 +1,9 @@
 .splash-header-div {
-    height: 20vh;
-    margin: 0 1rem;
+    /* height: 20vh; */
+    /* margin: 1rem; */
     padding: 0;
     top: 0;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
@@ -15,18 +14,30 @@
     text-transform: uppercase;
     padding: 0;
     margin: 0;
+    margin-left: 1rem;
+}
+
+.splash-text-div {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .splash-p {
+    font-size: .85rem;
     padding: 0; 
-    margin-top: .25rem;
+    /* margin-top: .25rem; */
+    margin-left: 1rem;
 }
 
 .portfolio-links {
-    font-size: .75rem;
+    font-size: .85rem;
     padding: 0; 
-    /* margin: 0; */
+    margin: 0;
     margin-top: .25rem;
+    margin-right: 1rem;
 }
 
 #portfolio-link {

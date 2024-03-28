@@ -13,8 +13,8 @@ function SplashHeader() {
 
     const initHero = () => {
       gsap.set(splashTitle, { y: "-20%" });
-      gsap.set(text, { x: "-6%" });
-      gsap.set(created, { x: "9%" });
+      gsap.set(text, { x: "-10%" });
+      gsap.set(created, { x: "10%" });
     };
 
     const showHero = () => {
@@ -69,37 +69,38 @@ function SplashHeader() {
     <div className="splashheader-content">
       <div className="splash-header-div">
         <h1 className="splash-header">green square</h1>
-
-        <p className="portfolio-links" id="created-text">
-          created by: <br />
-          <a
-            id="portfolio-link"
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.landpractice.com/"
-            alt=""
-          >
-            Peter Russell
-          </a>{" "}
-          &
-          <a
-            id="portfolio-link"
-            target="_blank"
-            rel="noreferrer"
-            href="https://erikmrussell.com/"
-            alt=""
-          >
-            {" "}
-            Erik Russell
-          </a>
-        </p>
-        <p className="splash-p">
-          An audio-visual exploration
-          <Link id="square-link" to="Body">
-            ENTER
-            <img id="enter-png" src={arrow} />
-          </Link>
-        </p>
+        <div className="splash-text-div">
+          <p className="portfolio-links" id="created-text">
+            created by <br />
+            <a
+              id="portfolio-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.landpractice.com/"
+              alt=""
+            >
+              Peter Russell
+            </a>{" "}
+            &
+            <a
+              id="portfolio-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://erikmrussell.com/"
+              alt=""
+            >
+              {" "}
+              Erik Russell
+            </a>
+          </p>
+          <p className="splash-p">
+            An audio-visual exploration
+            <Link id="square-link" to="Body">
+              ENTER
+              <img id="enter-png" src={arrow} />
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );
