@@ -29,6 +29,7 @@
     .splash-text-div {
       margin-left: 1rem;
       flex-direction: column-reverse;
+      align-items: start;
     }
     .splash-p {
       margin-left: 0;
@@ -42,6 +43,7 @@
     .splash-text-div {
       margin-left: 1rem;
       flex-direction: column-reverse;
+      align-items: start;
     }
     .splash-square-div {
       height: 60vh;
