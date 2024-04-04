@@ -17,7 +17,7 @@
     max-width: 1000px;
     max-height: 1000px;
     border-radius: 2px;
-    animation: change-square 3600s linear infinite;
+    animation: change-square 3625s linear infinite;
 }
 
 #mute-btn {
