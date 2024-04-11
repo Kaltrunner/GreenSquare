@@ -251,8 +251,12 @@
         background: #138808;
         opacity: 100%;
       }
-      99.92% {
+      99.72% {
         background: #00B140;
+        opacity: 100%;
+      }
+      99.92% {
+        background: whitesmoke;
         opacity: 100%;
       }
       100% {
