@@ -32,7 +32,12 @@ function SplashHeader() {
             </a>
           </p>
           <p className="splash-p">
-            An audio-visual exploration
+            Duration: 1 hour
+            <br />
+            Headphones recommended
+          </p>
+          <p className="splash-p">
+            An unhurried audio-visual exploration
             <Link id="square-link" to="Body">
               ENTER
               <img id="enter-png" src={arrow} />
