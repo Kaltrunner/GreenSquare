@@ -17,7 +17,8 @@
     max-width: 1000px;
     max-height: 1000px;
     border-radius: 2px;
-    animation: change-square 3625s linear infinite;
+    /* animation: change-square 3625s linear infinite; */
+    animation: change-square 180s linear infinite;
 }
 
 #mute-btn {
@@ -26,7 +27,7 @@
   
 }
 
-    @keyframes change-square {
+    /* @keyframes change-square {
       0% {
         background: whitesmoke;
         opacity: 0%;
@@ -263,4 +264,78 @@
         background: whitesmoke;
         opacity: 100%;
       }
-    }
+    } */
+
+
+    @keyframes change-square {
+      0% { background-color: whitesmoke;
+      opacity: 0; }
+      0.0788% { background-color: #59C64E;
+      opacity: 100%; }
+      0.4196% { background-color: #4CBB17; }
+      1.0029% { background-color: #98FB98; }
+      1.4259% { background-color: #85D37F; }
+      1.8452% { background-color: #98FB98; }
+      2.6362% { background-color: #00AB66; }
+      3.8653% { background-color: #B6DD9F; }
+      5.1869% { background-color: #00FF7F; }
+      8.5188% { background-color: #53E0AD; }
+      9.3188% { background-color: #00FF7F; }
+      10.1188% { background-color: #59D13B; }
+      11.7896% { background-color: #C7EA46; }
+      12.5896% { background-color: #85BB65; }
+      13.0199% { background-color: #4D8C57; }
+      15.3559% { background-color: #9DC209; }
+      16.1559% { background-color: #00A693; }
+      17.8225% { background-color: #68B51F; }
+      19.4889% { background-color: #4AFF00; }
+      21.1553% { background-color: #4CBB17; }
+      22.8218% { background-color: #5B994A; }
+      24.4882% { background-color: #D2F97D; }
+      26.1546% { background-color: #00A877; }
+      27.8211% { background-color: #457F6C; }
+      29.4875% { background-color: #004F27; }
+      31.1539% { background-color: #3FF000; }
+      32.8204% { background-color: #427047; }
+      34.4868% { background-color: #00755E; }
+      36.1532% { background-color: #8A9A5B; }
+      37.8197% { background-color: #00A877; }
+      39.4861% { background-color: #00F0A8; }
+      41.1525% { background-color: #006B3C; }
+      42.8189% { background-color: #7FC652; }
+      44.4854% { background-color: #85BB65; }
+      46.1518% { background-color: #4D8C57; }
+      47.8182% { background-color: #4CBB17; }
+      49.4847% { background-color: #C7EA46; }
+      51.1511% { background-color: #C5FC77; }
+      52.8175% { background-color: #00A86B; }
+      54.4839% { background-color: #23C181; }
+      56.1504% { background-color: #00A693; }
+      57.8168% { background-color: #007848; }
+      59.4832% { background-color: #4AFF00; }
+      61.1497% { background-color: #00FF7F; }
+      62.8161% { background-color: #D2EA6E; }
+      64.4825% { background-color: #00FF7F; }
+      66.1489% { background-color: #98FB98; }
+      67.8154% { background-color: #00F0A8; }
+      69.4818% { background-color: #9DC209; }
+      71.1482% { background-color: #98B585; }
+      72.8146% { background-color: #74C365; }
+      74.4811% { background-color: #2E8B57; }
+      76.1475% { background-color: #299617; }
+      77.8139% { background-color: #4E6038; }
+      79.4804% { background-color: #2E8B57; }
+      81.1468% { background-color: #00A86B; }
+      82.8132% { background-color: #00B140; }
+      84.4796% { background-color: #3FF000; }
+      86.1461% { background-color: #4EF9AB; }
+      87.8125% { background-color: #2DE060; }
+      89.4789% { background-color: #3FF000; }
+      91.1453% { background-color: #004B49; }
+      92.8118% { background-color: #177245; }
+      94.4782% { background-color: #2A8000; }
+      96.1446% { background-color: #138808; }
+      97.8110% { background-color: #43B515; }
+      99.4775% { background-color: #138808; }
+      101.135% { background-color: #00A86B; }
+    } 
